@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // app/api/generate-image/route.ts
 // Server-only endpoint so the Google Imagen API key never reaches the browser.
 //
