@@ -16,7 +16,6 @@ export const runtime = 'edge';
 
 import { NextRequest, NextResponse } from "next/server";
 
-export const runtime = "nodejs";
 
 const IMAGEN_MODEL = process.env.GOOGLE_IMAGEN_MODEL || "imagen-3.0-generate-002";
 const IMAGEN_ENDPOINT = (model: string) =>
