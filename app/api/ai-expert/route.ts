@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // app/api/ai-expert/route.ts
 // This is the "AI CHAT" entry point in the architecture:
 //
