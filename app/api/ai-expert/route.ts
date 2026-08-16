@@ -20,8 +20,6 @@ import { FinderAnswers } from "@/lib/types";
 import { EMPTY_ANSWERS, isAnswersComplete } from "@/lib/finder-engine";
 import { extractAnswersFromText, nextFallbackQuestion } from "@/lib/ai-expert-fallback";
 
-export const runtime = "nodejs";
-
 const ANTHROPIC_MODEL = process.env.ANTHROPIC_CHAT_MODEL || "claude-3-5-haiku-latest";
 
 interface ChatMessage {
